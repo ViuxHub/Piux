@@ -14,8 +14,8 @@ local Window = Fluent:CreateWindow({
 
 --Fluent provides Lucide Icons https://lucide.dev/icons/ for the tabs, icons are optional
 local Tabs = {
-    Main = Window:AddTab({ Title = "Test", Icon = "" }),
-    Settings = Window:AddTab({ Title = "Script 1", Icon = "script" })
+    Main = Window:AddTab({ Title = "The Script", Icon = "" }),
+    Settings = Window:AddTab({ Title = "Settings", Icon = "script" })
 }
 
 local Options = Fluent.Options
@@ -38,12 +38,12 @@ do
 
 
     Tabs.Main:AddButton({
-        Title = "Button",
+        Title = "Blade Ball",
         Description = "Very important button",
-        Callback = function()
+        Callback = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mc4121ban/trashscript/main/chaotic.lua"))()
             Window:Dialog({
                 Title = "Title",
-                Content = "This is a dialog",
+                Content = "This is a Chaotic",
                 Buttons = {
                     {
                         Title = "Confirm",
