@@ -40,7 +40,8 @@ do
     Tabs.Main:AddButton({
         Title = "Blade Ball",
         Description = "Very important button",
-        Callback = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mc4121ban/trashscript/main/chaotic.lua"))()
+        Callback = function() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mc4121ban/trashscript/main/chaotic.lua"))()
             Window:Dialog({
                 Title = "Title",
                 Content = "This is a Chaotic",
