@@ -65,14 +65,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/mai
 
 
 
-    local Toggle = Tabs.Main:AddToggle("Manual Spam", {Title = "Manual Spam", Default = false })
+    local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Toggle", Default = false })
 
     Toggle:OnChanged(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/nqxlOfc/SlzAX17vGCub7iRKVmJid61Bg/main/KwKVzV5SgcFBd9fnpLr4lKCg6.lua"))()
-        print("Manual Spam changed:", Options.Manual Spam.Value)
+        print("MyToggle changed:", Options.MyToggle.Value)
     end)
 
-    Options.Manual Spam:SetValue(false)
+    Options.MyToggle:SetValue(false)
 
 
     
