@@ -41,11 +41,11 @@ do
         Title = "Blade Ball",
         Description = "Very important button",
         Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
             Window:Dialog({
                 Title = "Title",
                 Content = "This is a Astral Hub",
                 Buttons = {
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
                     {
                         Title = "Confirm",
                         Callback = function()
